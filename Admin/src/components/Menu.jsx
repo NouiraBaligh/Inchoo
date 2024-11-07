@@ -51,15 +51,6 @@ const Menu = () => {
 
         <hr className="w-full my-[20px] border-gray-300" />
 
-        <Link to="/banners">
-          <li className="flex items-center text-[20px] cursor-pointer mt-[20px] transition-colors duration-100">
-            <FaElementor className="mr-[15px] text-[#ef93db]" />
-            Banners
-          </li>
-        </Link>
-
-        <hr className="w-full my-[20px] border-gray-300" />
-
         <li className="flex items-center text-[20px] cursor-pointer mt-[20px] transition-colors duration-100">
           <FaSignOutAlt className="mr-[15px] text-[#ef93db]" />
           Logout

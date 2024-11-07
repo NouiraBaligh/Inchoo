@@ -3,7 +3,6 @@ import Menu from "./components/Menu";
 import Home from "./pages/Home";
 import Users from "./pages/Users";
 import Products from "./pages/Products";
-import Banners from "./pages/Banners";
 import Orders from "./pages/Orders";
 
 function App() {
@@ -40,10 +39,6 @@ function App() {
         {
           path: "/orders",
           element: <Orders />,
-        },
-        {
-          path: "/banners",
-          element: <Banners />,
         },
       ],
     },
